@@ -5,10 +5,10 @@ services:
     restart: unless-stopped
     environment:
       MYSQL_ONETIME_PASSWORD: "true"
-      MYSQL_ROOT_PASSWORD: "L0v3R00t!"
+      MYSQL_ROOT_PASSWORD: "rootpassword"
       MYSQL_DATABASE: "shinobi"
       MYSQL_USER: "shinobi"
-      MYSQL_PASSWORD: "L0v3MySqL!"
+      MYSQL_PASSWORD: "mysqlpassword"
     volumes:
       - shinobi_mysql:/var/lib/mysql
     healthcheck:

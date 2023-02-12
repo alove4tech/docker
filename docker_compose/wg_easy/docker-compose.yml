@@ -4,13 +4,13 @@ services:
     environment:
       # ⚠️ Required:
       # Change this to your host's public address
-      - WG_HOST=aaronshomeproxy.ddns.net
+      - WG_HOST=domain.name.com
 
       # Optional:
-      - PASSWORD=L0v3Wg!
-      - WG_PORT=16969
+      - PASSWORD=password
+      - WG_PORT=51820
       # - WG_DEFAULT_ADDRESS=10.8.0.x
-      - WG_DEFAULT_DNS=192.168.254.202
+      - WG_DEFAULT_DNS=192.168.1.1
       # - WG_MTU=1420
       # - WG_ALLOWED_IPS=192.168.15.0/24, 10.0.1.0/24
       # - WG_PRE_UP=echo "Pre Up" > /etc/wireguard/pre-up.txt
